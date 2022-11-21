@@ -1,0 +1,23 @@
+{
+  "name": "gunvie-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "안녕하세요. 이번에 백엔드 공부를 목적으로 만든 gunvie 프로젝트입니다. <br/>   저는 아주 예전 영화말고, 21세기로 넘어 오면서 만들어진 영화를 좋아합니다. <br/>   그래서 이번에 과거 한국의 순위권 영화 리스트들을 개인적으로 보고싶어서 공부할 겸 만들었습니다. <br/>   그리고 만드는 김에 회원들끼리 과거의 영화에 대해서 공유를 하면 좋지 않을까라는 생각에 아이디어를 구상했습니다. <br/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.8.0"
+  }
+}
